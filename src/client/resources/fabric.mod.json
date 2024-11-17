@@ -1,0 +1,22 @@
+{
+	"schemaVersion": 1,
+	"id": "infchathistory",
+	"version": "${version}",
+	"name": "Infinite Chat History",
+	"description": "Makes it so your chat history is effectively infinite!",
+	"authors": [
+		"xBackpack"
+	],
+	"license": "CC0-1.0",
+	"icon": "assets/infchathistory/icon.png",
+	"environment": "client",
+	"entrypoints": {},
+	"mixins": [
+      "infchathistory.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.16.9",
+		"minecraft": ">=1.21.1",
+		"java": ">=21"
+	}
+}
